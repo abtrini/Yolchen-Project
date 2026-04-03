@@ -78,7 +78,7 @@ iframe{
   object-fit: cover;
   flex-shrink: 0; */
 
-  width: 10%; height: auto; object-fit: cover;
+  width: 100%; height: auto; object-fit: cover;
 
 }
 
