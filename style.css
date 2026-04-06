@@ -89,3 +89,24 @@ iframe{
 .service-item p {
   margin-bottom: 0;
 }
+
+.custom-table thead tr{
+  background-color: tomato;
+  border-radius: 15px;
+}
+
+.custom-table th,
+.custom-table td {
+  border: none !important;
+}
+
+.custom-table thead th {
+  background-color: #f8f9fa;
+  color: #212529;
+  border-bottom: 1px solid #dee2e6 !important;
+  padding: 8px;
+}
+
+.custom-table tbody td {
+  background-color: transparent !important;
+}
