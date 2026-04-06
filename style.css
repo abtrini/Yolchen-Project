@@ -91,22 +91,34 @@ iframe{
 }
 
 
-/* .custom-table th,
+.custom-table th,
 .custom-table td {
-  border: none !important;
-} */
+border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+
+
+.custom-table th:not(:last-child),
+.custom-table td:not(:last-child) {
+  border-right: 3 solid black !important;
+
+}
+
 
 .custom-table thead th {
   background-color: black;
   color: white;
-  border-bottom: 5px solid #dee2e6 !important;
+  border-top: 3px solid black !important;
+
+  border-bottom: 3px solid black !important;
   padding: 8px;
 }
 
 .custom-table tbody td {
   background-color: transparent !important;
+    border-bottom: 3px solid black !important;
+
 }
 
 .custom-table tbody tr {
-  border-bottom: 3px solid black !important;
 }
