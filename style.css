@@ -120,5 +120,28 @@ border-left: 3px solid black;
 
 }
 
+
+
+/* Keep all carousel images the same size */
+#carouselExampleCaptions .carousel-item img {
+  height: 420px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 2rem;
+}
+.carousel-img {
+  height: 420px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 2rem;
+}
+
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 280px;
+  }
+}
 .custom-table tbody tr {
 }
