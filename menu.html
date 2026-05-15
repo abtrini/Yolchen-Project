@@ -125,12 +125,73 @@
           class="row justify-content-center align-items-center text-center text-lg-start "
         >
           <div class="col-lg-5 col-9 mb-3 mt-3 mt-lg-0 mb-lg-0">
-            <img
-              src="./assets/bread.jpg"
-              alt="Breads"
-              srcset=""
-              class="col-10 p-lg-3  rounded-5  "
-            />
+           
+              <div id="breadCarousel" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#breadCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#breadCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#breadCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#breadCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#breadCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#breadCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+              
+                  <div class="carousel-item active">
+                   
+                    <img src="./assets/WhiteBread.png" class="d-block w-100 carousel-img " alt="...">
+                        <div class="carousel-caption carousel-text text-dark ">
+                      <h5 class="display-5 fw-bold">White Bread</h5>
+                      <p>$18.00</p>
+                    </div>
+                 
+                  </div>
+                   <div class="carousel-item ">
+                    <img src="./assets/WholeWheatBread.png" class="d-block w-100 carousel-img " alt="...">
+                    <div class="carousel-caption carousel-text text-dark">
+                      <h5 class="display-5 fw-bold">WholeWheat Bread</h5>
+                      <p>$18.00</p>
+                    </div>
+                  </div>
+                   <div class="carousel-item ">
+                    <img src="./assets/SpinachBread.png" class="d-block w-100 carousel-img " alt="...">
+                    <div class="carousel-caption carousel-text text-dark">
+                      <h5 class="display-5 fw-bold">Spinach Bread</h5>
+                      <p>$18.00</p>
+                    </div>
+                  </div>
+                   <div class="carousel-item ">
+                    <img src="./assets/Pumpkin Bread.png" class="d-block w-100 carousel-img " alt="...">
+                    <div class="carousel-caption carousel-text text-dark">
+                      <h5 class="display-5 fw-bold">Pumpkin Bread</h5>
+                      <p>$18.00</p>
+                    </div>
+                  </div>
+                      <div class="carousel-item ">
+                    <img src="/assets/MultigrainBread.png" class="d-block w-100 carousel-img " alt="...">
+                    <div class="carousel-caption carousel-text text-dark">
+                      <h5 class="display-5 fw-bold">Multigrain Bread</h5>
+                      <p>$18.00</p>
+                    </div>
+                  </div>
+                   <div class="carousel-item ">
+                    <img src="./assets/BeetRootBread.png" class="d-block w-100 carousel-img " alt="...">
+                    <div class="carousel-caption carousel-text text-dark">
+                      <h5 class="display-5 fw-bold">BeetRoot Bread</h5>
+                      <p>$18.00</p>
+                    </div>
+                  </div>
+                 
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#breadCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#breadCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
           </div>
           <div class="col-lg-7">
             <h1 class="display-1">Breads</h1>
@@ -139,48 +200,7 @@
               Beetroot to classic favorites like White and Whole Wheat, we have
               something to suit every palate.
             </p>
-            <table class="table col-lg-10 text-start table-sm table-striped-columns table-light table-hover custom-table">
-              <thead>
-                <tr>
-                  <th class="col">Item</th>
-                  <th class="col text-dark">Price</th>
-                  <th class="col">Item</th>
-                  <th class="col text-dark">Price</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Beetroot</td>
-                  <td>$26.00</td>
-                  <td>Spinach</td>
-                  <td>$23.00</td>
-                </tr>
-                <tr>
-                  <td>Pumpkin</td>
-                  <td>$23.00</td>
-                  <td>Multigrain</td>
-                  <td>$23.00</td>
-                </tr>
-                <tr>
-                  <td>Whole Wheat Hops</td>
-                  <td>$19.00</td>
-                  <td>White Hops</td>
-                  <td>$16.00</td>
-                </tr>
-                <tr>
-                  <td>Whole Wheat</td>
-                  <td>$18.00</td>
-                  <td>White</td>
-                  <td>$16.00</td>
-                </tr>
-                <tr>
-                  <td>Cocomut Bake</td>
-                  <td>$16.00</td>
-                  <!-- <td>Multigrain</td>
-                  <td>$26.00</td> -->
-                </tr>
-              </tbody>
-            </table></div>
+            </div>
         </div>
       </div>
     </section>
@@ -191,14 +211,6 @@
         <div
           class="row justify-content-center align-items-center  text-center text-lg-start"
         >
-          <div class="col-lg-5 col-9 mb-3 mt-3 mt-lg-0 mb-lg-0">
-            <img
-              src="./assets/bread.jpg"
-              alt="Breads"
-              srcset=""
-              class="col-10 p-lg-3  rounded-5"
-            />
-          </div>
           <div class="col-lg-7">
             <h1>Cakes</h1>
             <p class="lead">
@@ -207,56 +219,78 @@
               cravings.
             </p>
 
-            <table class="table col-lg-10 text-start table-sm table-striped-columns table-light table-hover custom-table">
-              <thead>
-                <tr>
-                  <th class="col">Item</th>
-                  <th class="col text-dark">Price</th>
-                  <th class="col">Item</th>
-                  <th class="col text-dark">Price</th>
-                </tr>
-              </thead>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Pone</td>
-                  <td>$9.00</td>
-                  <td>Oatmeal Cookies</td>
-                  <td>$9.00</td>
-                </tr>
-                <tr>
-                  <td>Banana Bread</td>
-                  <td>$9.00</td>
-                  <td>Banana Bread</td>
-                  <td>$35.00/$70.00</td>
-                </tr>
-                <tr>
-                  <td>Sweet Bread</td>
-                  <td>$8.00</td>
-                  <td>Sweet Bread</td>
-                  <td>$35.00/$70.00</td>
-                </tr>
-                <tr>
-                  <td>Sponge Cake</td>
-                  <td>$9.00</td>
-                  <td>Sponge Cake</td>
-                  <td>$60.00/$70.00</td>
-                </tr>
-                <tr>
-                  <td>Pumpkin Muffins</td>
-                  <td>$9.00</td>
-                  <td>Pumpkin Cake</td>
-                  <td>$36.00</td>
-                </tr>
-                <tr>
-                  <td>Carrot Muffin</td>
-                  <td>$17.00</td>
-                  <td>Carrot Cake</td>
-                  <td>$130.00</td>
-                </tr>
-              </tbody>
-            </table>
+            
           </div>
+
+          <div class="col-lg-5 col-9 mb-3 mt-3 mt-lg-0 mb-lg-0 order-0 order-lg-1">
+         
+              <div id="cakeCarousel" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#cakeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#cakeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#cakeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#cakeCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#cakeCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#cakeCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+              
+                  <div class="carousel-item active">
+                       <div class="carousel-caption carousel-text text-dark">
+                      <h5 class="display-5 fw-bold">White Bread</h5>
+                      <p>$18.00</p>
+                    </div>
+                    <img src="./assets/WhiteBread.png" class="d-block w-100 carousel-img " alt="...">
+                 
+                  </div>
+                   <div class="carousel-item ">
+                    <img src="./assets/WholeWheatBread.png" class="d-block w-100 carousel-img " alt="...">
+                    <div class="carousel-caption carousel-text text-dark">
+                      <h5 class="display-5 fw-bold">WholeWheat Bread</h5>
+                      <p>$18.00</p>
+                    </div>
+                  </div>
+                   <div class="carousel-item ">
+                    <img src="./assets/SpinachBread.png" class="d-block w-100 carousel-img " alt="...">
+                    <div class="carousel-caption carousel-text text-dark">
+                      <h5 class="display-5 fw-bold">Spinach Bread</h5>
+                      <p>$18.00</p>
+                    </div>
+                  </div>
+                   <div class="carousel-item ">
+                    <img src="./assets/Pumpkin Bread.png" class="d-block w-100 carousel-img " alt="...">
+                    <div class="carousel-caption carousel-text text-dark">
+                      <h5 class="display-5 fw-bold">Pumpkin Bread</h5>
+                      <p>$18.00</p>
+                    </div>
+                  </div>
+                      <div class="carousel-item ">
+                    <img src="/assets/MultigrainBread.png" class="d-block w-100 carousel-img " alt="...">
+                    <div class="carousel-caption carousel-text text-dark">
+                      <h5 class="display-5 fw-bold">Multigrain Bread</h5>
+                      <p>$18.00</p>
+                    </div>
+                  </div>
+                   <div class="carousel-item ">
+                    <img src="./assets/BeetRootBread.png" class="d-block w-100 carousel-img " alt="...">
+                    <div class="carousel-caption carousel-text text-dark">
+                      <h5 class="display-5 fw-bold">BeetRoot Bread</h5>
+                      <p>$18.00</p>
+                    </div>
+                  </div>
+                 
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#cakeCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#cakeCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+        
         </div>
       </div>
     </section>
@@ -268,95 +302,20 @@
           class="row justify-content-center align-items-center  text-center text-lg-start"
         >
           <div class="col-lg-5 col-9 mb-2 mt-2 mt-lg-0 mb-lg-0">
-`            <img
-              src="./assets/bread.jpg"
-              alt="Breads"
-              srcset=""
-              class="col-10 p-lg-3  rounded-5 "
-            />
-          </div>
-          <div class="col-lg-7">
-            <h1>Pastries</h1>
-            <p class="lead">
-              From savory pies filled with tender meats and flavorful vegetables
-              to sweet treats like jam tarts and coconut rolls, we have a pastry
-              for every craving.
-            </p>
-            <table class="table col-lg-10 text-start table-sm table-striped-columns table-light table-hover custom-table">
-              <thead>
-                <tr>
-                  <th class="col">Item</th>
-                  <th class="col text-dark">Price</th>
-                  <th class="col">Item</th>
-                  <th class="col text-dark">Price</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Pone</td>
-                  <td>$9.00</td>
-                  <td>Oatmeal Cookies</td>
-                  <td>$9.00</td>
-                </tr>
-                <tr>
-                  <td>Banana Bread</td>
-                  <td>$9.00</td>
-                  <td>Banana Bread</td>
-                  <td>$35.00/$70.00</td>
-                </tr>
-                <tr>
-                  <td>Sweet Bread</td>
-                  <td>$8.00</td>
-                  <td>Sweet Bread</td>
-                  <td>$35.00/$70.00</td>
-                </tr>
-                <tr>
-                  <td>Sponge Cake</td>
-                  <td>$9.00</td>
-                  <td>Sponge Cake</td>
-                  <td>$60.00/$70.00</td>
-                </tr>
-                <tr>
-                  <td>Pumpkin Muffins</td>
-                  <td>$9.00</td>
-                  <td>Pumpkin Cake</td>
-                  <td>$36.00</td>
-                </tr>
-                <tr>
-                  <td>Carrot Muffin</td>
-                  <td>$17.00</td>
-                  <td>Carrot Cake</td>
-                  <td>$130.00</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-   <section id="pastries" class="hero1 py-5 ">
-      <div class="container">
-        <div
-          class="row justify-content-center align-items-center  text-center text-lg-start"
-        >
-          <div class="col-lg-5 col-9 mb-2 mt-2 mt-lg-0 mb-lg-0  ">
-           
-
-              <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="true">
+`            
+              <div id="pastrieCarousel" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                  <button type="button" data-bs-target="#pastrieCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#pastrieCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#pastrieCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#pastrieCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#pastrieCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  <button type="button" data-bs-target="#pastrieCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
                 </div>
                 <div class="carousel-inner">
               
                   <div class="carousel-item active">
-                       <div class="carousel-caption d-none d-md-block   rounded-3 mt-3 top-0 text-dark fw-bold">
+                       <div class="carousel-caption carousel-text text-dark">
                       <h5 class="display-5 fw-bold">White Bread</h5>
                       <p>$18.00</p>
                     </div>
@@ -365,53 +324,50 @@
                   </div>
                    <div class="carousel-item ">
                     <img src="./assets/WholeWheatBread.png" class="d-block w-100 carousel-img " alt="...">
-                    <div class="carousel-caption d-none d-md-block   rounded-3 mt-3 top-0 text-dark fw-bold">
+                    <div class="carousel-caption carousel-text text-dark">
                       <h5 class="display-5 fw-bold">WholeWheat Bread</h5>
                       <p>$18.00</p>
                     </div>
                   </div>
                    <div class="carousel-item ">
                     <img src="./assets/SpinachBread.png" class="d-block w-100 carousel-img " alt="...">
-                    <div class="carousel-caption d-none d-md-block   rounded-3 mt-3 top-0 text-dark fw-bold">
+                    <div class="carousel-caption carousel-text text-dark">
                       <h5 class="display-5 fw-bold">Spinach Bread</h5>
                       <p>$18.00</p>
                     </div>
                   </div>
                    <div class="carousel-item ">
                     <img src="./assets/Pumpkin Bread.png" class="d-block w-100 carousel-img " alt="...">
-                    <div class="carousel-caption d-none d-md-block   rounded-3 mt-3 top-0 text-dark fw-bold">
+                    <div class="carousel-caption carousel-text text-dark">
                       <h5 class="display-5 fw-bold">Pumpkin Bread</h5>
                       <p>$18.00</p>
                     </div>
                   </div>
                       <div class="carousel-item ">
                     <img src="/assets/MultigrainBread.png" class="d-block w-100 carousel-img " alt="...">
-                    <div class="carousel-caption d-none d-md-block   rounded-3 mt-3 top-0 text-dark fw-bold">
+                    <div class="carousel-caption carousel-text text-dark">
                       <h5 class="display-5 fw-bold">Multigrain Bread</h5>
                       <p>$18.00</p>
                     </div>
                   </div>
                    <div class="carousel-item ">
                     <img src="./assets/BeetRootBread.png" class="d-block w-100 carousel-img " alt="...">
-                    <div class="carousel-caption d-none d-md-block   rounded-3 mt-3 top-0 text-dark fw-bold">
+                    <div class="carousel-caption carousel-text text-dark">
                       <h5 class="display-5 fw-bold">BeetRoot Bread</h5>
                       <p>$18.00</p>
                     </div>
                   </div>
                  
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#pastrieCarousel" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#pastrieCarousel" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-
-
-
           </div>
           <div class="col-lg-7">
             <h1>Pastries</h1>
@@ -420,11 +376,14 @@
               to sweet treats like jam tarts and coconut rolls, we have a pastry
               for every craving.
             </p>
-           
+            
           </div>
         </div>
       </div>
     </section>
+
+
+   
 
 
 
@@ -489,7 +448,7 @@
   class="btn btn-danger btn-floating btn-lg"
   id="btn-back-to-top"
 >
-  <i class="fas fa-arrow-up">Back to the top</i>
+   <i class="bi bi-arrow-up"></i>
 </button>
 
  <script>

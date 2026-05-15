@@ -120,7 +120,9 @@ border-left: 3px solid black;
 
 }
 
-
+.carousel-inner {
+  border-radius: 2rem;
+}
 
 /* Keep all carousel images the same size */
 #carouselExampleCaptions .carousel-item img {
@@ -128,19 +130,56 @@ border-left: 3px solid black;
   width: 100%;
   object-fit: cover;
   object-position: center;
-  border-radius: 2rem;
+  
 }
 .carousel-img {
   height: 420px;
   width: 100%;
   object-fit: cover;
   object-position: center;
-  border-radius: 2rem;
+}
+
+.carousel-text {
+  display: block;
+  position: absolute;
+  top: 10px;
+  bottom: auto;
+  left: 10%;
+  right: 10%;
+  z-index: 10;
+}
+
+.carousel-text h5 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.carousel-text p {
+  font-size: 3rem;
+  font-weight: 700;
 }
 
 @media (max-width: 768px) {
+  .carousel-text {
+    top: 5px;
+    left: 5%;
+    right: 5%;
+  }
+
+  .carousel-text h5 {
+    font-size: 1.2rem;
+  }
+
+  .carousel-text p {
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 768px) {
   .carousel-img {
-    height: 280px;
+    height: 300px;
   }
 }
 .custom-table tbody tr {
