@@ -104,6 +104,10 @@ border-left: 3px solid black;
 
 }
 
+.service-icon {
+  color: orange;
+  font-size: 60px;
+}
 
 .custom-table thead th {
   background-color: black;
